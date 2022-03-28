@@ -1,2 +1,4 @@
-1- Coca-cola
-2- Guaraná
+1- Coca-cola;
+2- Guaraná;
+3- Água;
+4- Suco de laranja;
