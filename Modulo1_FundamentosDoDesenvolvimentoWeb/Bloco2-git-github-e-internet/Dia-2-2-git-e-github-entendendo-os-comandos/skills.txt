@@ -1,0 +1,9 @@
+Unix
+Bash
+Git
+GitHub
+HTML
+CSS
+JavaScript
+JS ES6
+React
