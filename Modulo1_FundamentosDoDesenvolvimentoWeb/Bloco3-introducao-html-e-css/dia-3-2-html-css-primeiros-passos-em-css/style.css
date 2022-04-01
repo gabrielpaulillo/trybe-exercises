@@ -1,0 +1,40 @@
+h1 {
+    width: 300px;
+    color:orange;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.p_e_ul {
+    background-color: gray;
+}
+
+body {
+    font-size: 16px;
+}
+
+p {
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color:crimson;
+    font-weight: 600;
+    font-size: 3em;
+    font-style: italic;
+}
+
+ul {
+    line-height: 20px;
+    text-align: left;
+}
+
+#bgYellow {
+    background-color: yellow;
+}
+
+#bgRed {
+    background-color: red;
+}
+
+#bgBrown {
+    background-color: brown;
+}
