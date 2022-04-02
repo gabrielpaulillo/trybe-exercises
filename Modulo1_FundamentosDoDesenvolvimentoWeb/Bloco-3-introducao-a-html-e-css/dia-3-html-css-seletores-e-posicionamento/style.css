@@ -10,6 +10,14 @@
      text-transform: uppercase;
  }
 
+ li {
+     font-size: 20px;
+ }
+
+ ol li.italicoLi {
+     font-weight: bold;
+ }
+
  .titulo {
      color: red;
  }
