@@ -26,3 +26,11 @@
      font-size: 40px;
      border: 1px solid black;
  }
+
+ li.primeira {
+     color: blue;
+ }
+
+ li.java {
+     background-color: pink;
+ }
