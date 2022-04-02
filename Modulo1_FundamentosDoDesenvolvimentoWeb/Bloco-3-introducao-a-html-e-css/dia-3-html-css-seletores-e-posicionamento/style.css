@@ -37,7 +37,21 @@
 
  .links:hover {
     font-weight: bold;
-    font-style: none;
-    text-decoration: none;
-    color: green;
+ }
+
+ .stackOverFlow:hover {
+     color: orange;
+ }
+
+ .weSchools:hover {
+     color: green;
+ }
+ .mozillaMDN:hover {
+     color: black;
+ }
+ .devDocs:hover {
+     color: yellow;
+ }
+ .trybe:hover {
+     color: greenyellow;
  }
