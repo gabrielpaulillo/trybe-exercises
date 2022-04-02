@@ -34,3 +34,10 @@
  li.java {
      background-color: pink;
  }
+
+ .links:hover {
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    color: green;
+ }
