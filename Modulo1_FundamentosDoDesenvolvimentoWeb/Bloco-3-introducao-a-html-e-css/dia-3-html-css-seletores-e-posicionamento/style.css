@@ -1,0 +1,57 @@
+ ol {
+     background-color: yellow;
+ }
+
+ ol li.par{
+    color: green;
+ }
+
+ ol li.impar {
+     text-transform: uppercase;
+ }
+
+ li {
+     font-size: 20px;
+ }
+
+ ol li.italicoLi {
+     font-weight: bold;
+ }
+
+ .titulo {
+     color: red;
+ }
+
+ .italico {
+     font-size: 40px;
+     border: 1px solid black;
+ }
+
+ li.primeira {
+     color: blue;
+ }
+
+ li.java {
+     background-color: pink;
+ }
+
+ .links:hover {
+    font-weight: bold;
+ }
+
+ .stackOverFlow:hover {
+     color: orange;
+ }
+
+ .weSchools:hover {
+     color: green;
+ }
+ .mozillaMDN:hover {
+     color: black;
+ }
+ .devDocs:hover {
+     color: yellow;
+ }
+ .trybe:hover {
+     color: greenyellow;
+ }
