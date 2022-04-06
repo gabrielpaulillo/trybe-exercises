@@ -1,39 +1,68 @@
-let pecaXadrez = "Rainha";
+const a = 64;
+const b = 3;
+const c = 3;
+ if(a % 2 == 0 || b % 2 == 0 || c % 2 == 0) {
+     console.log(true);
+ } else {
+    console.log(false);
+ }
 
-switch (pecaXadrez) {
-    case "torre":
-    case "TORRE":
-    case "Torre":
-        console.log("apenas movimentos verticais e horizontais");
-        break;
-    case "cavalo":
-    case "CAVALO":
-    case "Cavalo":
-        console.log("apenas movimentos em L");
-        break;
-    case "bispo":
-    case "BISPO":
-    case "Bispo":
-        console.log("apenas movimentos na diagonal");
-        break;
-    case "rainha":
-    case "RAINHA":
-    case "Rainha":
-        console.log("movimentos para todas as direcões e quantas casas quiser");
-        break;
-    case "rei":
-    case "REI":
-    case "Rei":
-        console.log("movimentos para todas as direcões, mas somente uma casa por vez");
-        break;
-    case "peao":
-    case "PEAO":
-    case "Peao":
-        console.log("movimentos apenas para frente, sendo uma casa por turno");
-        break;
-    default:
-        console.log("peca não encontrada");
-}
+// const notaPorcentagem = -1;
+
+// if (notaPorcentagem < 0 || notaPorcentagem > 100) {
+//     console.log("ERRO");
+// } else if (notaPorcentagem >= 90) {
+//     console.log("A");
+// } else if (notaPorcentagem >= 80) {
+//     console.log("B");
+// } else if (notaPorcentagem >= 70) {
+//     console.log("C");
+// } else if (notaPorcentagem >= 60) {
+//     console.log("D");
+// } else if (notaPorcentagem >= 50) {
+//     console.log("E");
+// } else if (notaPorcentagem < 50) {
+//     console.log("F");
+// } else {
+//     console.log("ERRO");
+// }
+
+// let pecaXadrez = "Rainha";
+
+// switch (pecaXadrez) {
+//     case "torre":
+//     case "TORRE":
+//     case "Torre":
+//         console.log("apenas movimentos verticais e horizontais");
+//         break;
+//     case "cavalo":
+//     case "CAVALO":
+//     case "Cavalo":
+//         console.log("apenas movimentos em L");
+//         break;
+//     case "bispo":
+//     case "BISPO":
+//     case "Bispo":
+//         console.log("apenas movimentos na diagonal");
+//         break;
+//     case "rainha":
+//     case "RAINHA":
+//     case "Rainha":
+//         console.log("movimentos para todas as direcões e quantas casas quiser");
+//         break;
+//     case "rei":
+//     case "REI":
+//     case "Rei":
+//         console.log("movimentos para todas as direcões, mas somente uma casa por vez");
+//         break;
+//     case "peao":
+//     case "PEAO":
+//     case "Peao":
+//         console.log("movimentos apenas para frente, sendo uma casa por turno");
+//         break;
+//     default:
+//         console.log("peca não encontrada");
+// }
 
 // const a = 74;
 // const b = 75;
