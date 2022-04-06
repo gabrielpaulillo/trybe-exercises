@@ -1,11 +1,31 @@
-const a = 64;
-const b = 3;
-const c = 3;
- if(a % 2 == 0 || b % 2 == 0 || c % 2 == 0) {
-     console.log(true);
- } else {
-    console.log(false);
- }
+
+
+// const custoProduto = 3;
+// let custoProdutoComImposto = custoProduto - (custoProduto*0.2);
+// const valorVenda = 10;
+// const produtos = 1000;
+// let lucro = (produtos * valorVenda) - (produtos*custoProdutoComImposto);
+
+// console.log(lucro);
+
+
+// const a = 4;
+// const b = 7;
+// const c = 12;
+//  if(a % 2 != 0 || b % 2 != 0 || c % 2 != 0) {
+//      console.log(true);
+//  } else {
+//     console.log(false);
+//  }
+
+// const a = 64;
+// const b = 3;
+// const c = 3;
+//  if(a % 2 == 0 || b % 2 == 0 || c % 2 == 0) {
+//      console.log(true);
+//  } else {
+//     console.log(false);
+//  }
 
 // const notaPorcentagem = -1;
 
