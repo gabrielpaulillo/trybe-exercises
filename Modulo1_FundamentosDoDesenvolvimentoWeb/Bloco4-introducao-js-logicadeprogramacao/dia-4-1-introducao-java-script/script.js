@@ -1,6 +1,10 @@
-const salarioBruto = 3485.10
+const salarioBruto = 3000.00
 let salarioBase;
 let salarioLiquido;
+// const aliquotaINSSMenorMil = 0.08;
+// const aliquotaINSSMaiorMil = 0.09;
+// const aliquotaINSSMaiorDoisMil = 0.11;
+// const aliquotaINSSFixa = 570.88;
 let aliquotaINSS;
 let impostoRenda;
 
@@ -26,16 +30,16 @@ let impostoRenda;
         console.log(salarioBase);
     } else if (salarioBase > 1903.99 && salarioBase <= 2826.65) {
         impostoRenda = 0.075;
-     salarioLiquido = salarioBase - (salarioBase*impostoRenda) - 142.80;
+        salarioLiquido = salarioBase - [(salarioBase*impostoRenda) - 142.80];
     } else if (salarioBase > 2826.66 && salarioBase <= 3751.05) {
         impostoRenda = 0.15;
-     salarioLiquido = salarioBase - (salarioBase*impostoRenda) - 354.80;
+        salarioLiquido = salarioBase - [(salarioBase*impostoRenda) - 354.80];
     } else if (salarioBase > 3751.06 && salarioBase <= 4664.68) {
         impostoRenda = 0.225;
-     salarioLiquido = salarioBase - (salarioBase*impostoRenda) - 636.13;
+        salarioLiquido = salarioBase - [(salarioBase*impostoRenda) - 636.13];
     } else if (salarioBase > 4664.68) {
         impostoRenda = 0.275;
-     salarioLiquido = salarioBase - (salarioBase*impostoRenda) - 869.36;
+        salarioLiquido = salarioBase - [(salarioBase*impostoRenda) - 869.36];
     } else {
         console.log("ERRO")
     }
