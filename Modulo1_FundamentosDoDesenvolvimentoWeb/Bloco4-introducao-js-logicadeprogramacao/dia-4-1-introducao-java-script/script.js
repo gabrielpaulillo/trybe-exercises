@@ -1,4 +1,46 @@
+const salarioBruto = 3485.10
+let salarioBase;
+let salarioLiquido;
+let aliquotaINSS;
+let impostoRenda;
 
+    if(salarioBruto <= 1556.94) {
+        aliquotaINSS = 0.08;
+        salarioBase = salarioBruto - (salarioBruto*aliquotaINSS);
+    } else if (salarioBruto > 1556.95 && salarioBruto <= 2594.92) {
+        aliquotaINSS = 0.09;
+        salarioBase = salarioBruto - (salarioBruto*aliquotaINSS);
+    } else if (salarioBruto > 2594.93 && salarioBruto <= 5189.82) {
+        aliquotaINSS = 0.11;
+        salarioBase = salarioBruto - (salarioBruto*aliquotaINSS);
+    } else if (salarioBruto > 5189.82) {
+        aliquotaINSS = 570.88;
+        salarioBase = salarioBruto - aliquotaINSS;
+    } else {
+        console.log("ERRO")
+    }
+
+    console.log("O salário base é: " + salarioBase)
+
+    if (salarioBase <= 1903.98) {
+        console.log(salarioBase);
+    } else if (salarioBase > 1903.99 && salarioBase <= 2826.65) {
+        impostoRenda = 0.075;
+     salarioLiquido = salarioBase - (salarioBase*impostoRenda) - 142.80;
+    } else if (salarioBase > 2826.66 && salarioBase <= 3751.05) {
+        impostoRenda = 0.15;
+     salarioLiquido = salarioBase - (salarioBase*impostoRenda) - 354.80;
+    } else if (salarioBase > 3751.06 && salarioBase <= 4664.68) {
+        impostoRenda = 0.225;
+     salarioLiquido = salarioBase - (salarioBase*impostoRenda) - 636.13;
+    } else if (salarioBase > 4664.68) {
+        impostoRenda = 0.275;
+     salarioLiquido = salarioBase - (salarioBase*impostoRenda) - 869.36;
+    } else {
+        console.log("ERRO")
+    }
+
+    console.log ("O salário líquido é: " + salarioLiquido);
 
 // const custoProduto = 3;
 // let custoProdutoComImposto = custoProduto - (custoProduto*0.2);
