@@ -1,12 +1,62 @@
-const valor = 0;
+let pecaXadrez = "Rainha";
 
-if (valor > 0) {
-    console.log("positive");
-} else if (valor < 0) {
-    console.log("negative");
-} else {
-    console.log("zero");
+switch (pecaXadrez) {
+    case "torre":
+    case "TORRE":
+    case "Torre":
+        console.log("apenas movimentos verticais e horizontais");
+        break;
+    case "cavalo":
+    case "CAVALO":
+    case "Cavalo":
+        console.log("apenas movimentos em L");
+        break;
+    case "bispo":
+    case "BISPO":
+    case "Bispo":
+        console.log("apenas movimentos na diagonal");
+        break;
+    case "rainha":
+    case "RAINHA":
+    case "Rainha":
+        console.log("movimentos para todas as direcões e quantas casas quiser");
+        break;
+    case "rei":
+    case "REI":
+    case "Rei":
+        console.log("movimentos para todas as direcões, mas somente uma casa por vez");
+        break;
+    case "peao":
+    case "PEAO":
+    case "Peao":
+        console.log("movimentos apenas para frente, sendo uma casa por turno");
+        break;
+    default:
+        console.log("peca não encontrada");
 }
+
+// const a = 74;
+// const b = 75;
+// const c = 30;
+// let resultado = a + b + c;
+
+// if (resultado < 180) {
+//     console.log(false);
+// } else if (resultado > 180) {
+//     console.log(false);
+// } else {
+//     console.log(true);
+// }
+
+// const valor = 0;
+
+// if (valor > 0) {
+//     console.log("positive");
+// } else if (valor < 0) {
+//     console.log("negative");
+// } else {
+//     console.log("zero");
+// }
 
 // const a = 50;
 // const b = 50;
