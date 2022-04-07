@@ -1,17 +1,54 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let position;
 
-for (let index = 0; index < numbers.length; index += 1) {
-    for (let secondIndex = 1; secondIndex < index; secondIndex += 1) {
-        if(numbers[index] < numbers[secondIndex]) {
-            position = numbers[index];
-            numbers[index] = numbers[secondIndex];
-            numbers[secondIndex] = position;
+for (let i = 0; i < numbers.length; i += 1) {
+    for (let k = 0; k < i; k += 1) {
+        if (i < numbers.length - 1) {
+            position = numbers[i];
+            numbers[i] *= numbers[k];
+            numbers[k] = position;
+        } else if (i >= numbers.length) {
+            numbers[i] *= 2;
         }
     }
-
-    console.log(numbers[index]);
 }
+console.log(numbers);
+
+
+
+//Exercício bônus2 dia 4.2
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let position;
+
+// for (let index = 0; index < numbers.length; index += 1) {
+//     for (let index2 = 0; index2 < index; index2 += 1) {
+//         if(numbers[index] > numbers[index2]) {
+//             position = numbers[index];
+//             numbers[index] = numbers[index2];
+//             numbers[index2] = position;
+//         }
+//     }
+//     //console.log(numbers[index]);
+// }
+
+// console.log(numbers);
+
+//Exercicio bônus dia 4.2
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let position;
+
+// for (let index = 0; index < numbers.length; index += 1) {
+//     for (let index2 = 0; index2 < index; index2 += 1) {
+//         if(numbers[index] < numbers[index2]) {
+//             position = numbers[index];
+//             numbers[index] = numbers[index2];
+//             numbers[index2] = position;
+//         }
+//     }
+//     //console.log(numbers[index]);
+// }
+
+// console.log(numbers);
 
 
 
