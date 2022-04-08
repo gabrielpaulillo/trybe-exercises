@@ -1,19 +1,17 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let position;
+console.log(numbers.length);
+console.table(numbers);
+let novoArr = [];
 
-for (let i = 0; i < numbers.length; i += 1) {
-    for (let k = 0; k < i; k += 1) {
-        if (i < numbers.length - 1) {
-            position = numbers[i];
-            numbers[i] *= numbers[k];
-            numbers[k] = position;
-        } else if (i >= numbers.length) {
-            numbers[i] *= 2;
-        }
+for (let index = 0; index < numbers.length; index += 1) {
+    
+    if (index === numbers.length - 1) {
+        novoArr.push(numbers[index] * 2)
+    } else {
+        novoArr.push(numbers[index] * numbers[index + 1]);
     }
 }
-console.log(numbers);
-
+console.log(novoArr);
 
 
 //Exercício bônus2 dia 4.2
