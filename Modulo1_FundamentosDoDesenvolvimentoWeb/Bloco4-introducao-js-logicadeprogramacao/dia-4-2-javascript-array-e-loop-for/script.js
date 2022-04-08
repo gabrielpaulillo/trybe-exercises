@@ -43,7 +43,6 @@ console.log(novoArr);
 //             numbers[index2] = position;
 //         }
 //     }
-//     //console.log(numbers[index]);
 // }
 
 // console.log(numbers);
