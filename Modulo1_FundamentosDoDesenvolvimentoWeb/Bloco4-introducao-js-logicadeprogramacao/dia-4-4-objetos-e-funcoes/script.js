@@ -1,3 +1,6 @@
+//  PT 2
+// 1 - Crie uma função que receba uma string e retorne true se for um palíndromo , ou false , se não for.
+
 // // 6 - Acesse as chaves nome , sobrenome e titulo , que está dentro da chave livrosFavoritos , e faça um console.log no seguinte formato: "O livro favorito de Julia Pessoa se chama 'O Pior Dia de Todos'".
 
 // let leitor = {
@@ -23,18 +26,35 @@
 
 // //   console.log(leitor.livrosFavoritos);
 
-//   console.log(leitor.nome + " tem " + leitor.livrosFavoritos.length + " livros!");
+//   console.log(leitor.nome + " tem " + leitor.livrosFavoritos.length + " livros favoritos!");
 
 //   console.log("O livro favorito de " + leitor.nome + " " + leitor.sobrenome + " se chama: " + leitor.livrosFavoritos[0].titulo + "!");
 
 // 5 - Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: 'Tio Patinhas', 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 'O último MacPatinhas', 'Sim'. Então, imprima os valores de cada objeto juntos de acordo com cada uma das chaves. Valor esperado no console:
 
 // let info = {
-//     personagem: [ 'Margarida', 'Tio Patinhas'] , 
-//     origem: [ 'Pato Donald','Christmas on Bear Mountain, Dells Four Color Comics #178', 'O último MacPatinhas' ],
+//     personagem: 'Margarida',
+//     origem: 'Pato Donald',
 //     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-//     recorrente: "Ambos recorrentes",
+//     recorrente: 'Sim',
 //   };
+
+// let info2 = {
+//     personagem: 'Tio Patinhas', 
+//     origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+//     nota: 'O último MacPatinhas',
+//     recorrente: 'Sim',
+//   };
+
+//   for (let properties in info) {
+//       if(properties === 'recorrente' &&
+//             info[properties] === 'Sim' && info2[properties] === 'Sim') { 
+//             console.log("Ambos recorrentes")
+//       } else {
+//           console.log(info[properties] + " e " + info2[properties]);
+//       }
+//   }
+      
 
 //   for (let value in info) {
 //       console.log(info[value]);
